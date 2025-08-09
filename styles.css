@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513; /* بني */
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: block;
+    background-color: #A0522D; /* بني */
+    color: white;
+    padding: 15px 40px;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #7B3F00; /* بني أغمق */
+}
